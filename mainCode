@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Auto-Refreshing Website</title>
+<script>
+var timer = setInterval(function() {
+window.location.reload();
+}, 2000);
+</script>
+</head>
+<body>
+<h1>Auto-Refreshing Website</h1>
+<p>This website will automatically refresh every 2 seconds.</p>
+<p>The names of those who have participated in the survey will be displayed below.</p>
+<ul>
+</ul>
+</body>
+</html>
